@@ -38,7 +38,7 @@ bioEyebrow:"ԱՐՏԻՍՏԻ ՄԱՍԻՆ / ԴԵՆԻՍ ՂՈՒԿԱՍՅԱՆ",bioHeroTi
 };
 const HOME={
 '.header nav a[href="#music"]':'navReleases','.header nav a[href="#catalog"]':'navCatalog','.header nav a[href="#bio"]':'navArtist','.header nav a[href="#video"]':'navVideos','.header-cta':'navListen','.mobile-menu summary':'menu','.mobile-panel a[href="#music"]':'navReleases','.mobile-panel a[href="#catalog"]':'navCatalog','.mobile-panel a[href="#bio"]':'navArtist','.mobile-panel a[href="#video"]':'navVideos',
-'.hero-topline span:first-child':'homeTop','.hero-copy .eyebrow':'homeGenre','.hero-copy h1':'homeHeroHtml','.hero-copy .description':'homeHeroDesc','.hero-buttons .primary':'homeExplore','.hero-buttons .ghost':'streamSpotify','.hero-bottom span':'homeBottom','.hero-bottom .scroll':'homeScroll',
+'.hero-topline span:first-child':'homeTop','.hero-copy .eyebrow':'homeGenre','.hero-copy h1':'homeHeroHtml','.hero-copy .description':'homeHeroDesc','.hero-buttons .primary':'homeExplore','.hero-buttons .hero-spotify':'streamSpotify','.hero-buttons .hero-youtube':'homeVisitYoutube','.hero-bottom span':'homeBottom','.hero-bottom .scroll':'homeScroll',
 '.platform-top .section-tag':'homeConnectTag','.platform-top h2':'homeConnectHtml','.platform-top p':'homeConnectDesc','.platform-note':'homeConnectNote',
 '.releases-head .section-tag':'homeReleasesTag','.releases-head h2':'homeReleasesHtml','.releases-head .aside':'homeReleasesDesc','.release-lead .eyebrow':'homeFeatured','.release-lead .detail':'homeAlbumDetail','.release-lead .link-pill':'homeAlbumCta','.releases-action a':'homeFull',
 '.statement .small':'homeStatementTag','.statement h2':'homeStatementHtml','.statement .desc':'homeStatementDesc',
