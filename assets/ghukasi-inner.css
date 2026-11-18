@@ -204,20 +204,10 @@ html[lang=hy] .sub-hero .hero-artwork.album:after{content:"105 ԵՐԳ"}
 .artist-career-note .career-eyebrow{display:block;color:#e0fa79;font-size:10px;letter-spacing:1.6px;font-weight:800;margin-bottom:12px}
 .artist-career-note h3{font:800 clamp(19px,2vw,28px)/1.14 'Archivo Black',sans-serif;letter-spacing:-.045em;margin:0 0 11px;color:#fff}
 .artist-career-note p{max-width:780px;margin:0;color:#bbb9c7;font-size:13px;line-height:1.75}
-.artist-career-note .career-link{
- display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;white-space:nowrap;
- padding:15px 18px;border:1px solid #e1f79091;border-radius:5px;
- color:#e6ff85;font-weight:800;font-size:11px;letter-spacing:.4px;
- transition:background .2s,transform .2s
-}
-.artist-career-note .career-link:hover{background:#e6ff8319;transform:translateY(-2px)}
 .bio-grid .native-name{display:block;font-size:14px;font-weight:600;color:#b7b2cf;letter-spacing:0;margin-top:7px}
-@media(max-width:740px){.artist-career-note{grid-template-columns:1fr;padding:23px 19px;gap:17px}.artist-career-note .career-link{white-space:normal;justify-self:start;text-align:center}}
+@media(max-width:740px){.artist-career-note{grid-template-columns:1fr;padding:23px 19px;gap:17px}}
 
-/* LinkedIn-informed technical career highlights on artist biography */
-.career-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:14px}
-.career-fact{border:1px solid #66617c70;border-radius:12px;background:linear-gradient(145deg,#181823,#111119);padding:20px 21px;min-width:0}
-.career-fact-label{display:block;color:#dcff80;font:800 11px/1.4 'Archivo Black',sans-serif;letter-spacing:.04em;margin-bottom:12px;overflow-wrap:anywhere}
-.career-fact p{margin:0;color:#c5c3d0;font-size:13px;line-height:1.75}
-html[dir=rtl] .career-fact{text-align:right}
-@media(max-width:800px){.career-facts{grid-template-columns:1fr}.career-fact{padding:19px}}
+
+/* Compact education note on the artist biography */
+.artist-education-note{display:block;max-width:920px}
+.artist-education-note p{max-width:780px}
