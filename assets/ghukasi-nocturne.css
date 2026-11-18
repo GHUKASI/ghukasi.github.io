@@ -412,25 +412,29 @@ html{scroll-behavior:auto}
   .about-art .art-stamp { left: 14px; bottom: 13px; font-size: 9px; }
 }
 
-/* Desktop-only GHUKASI portrait: comfortable complete face size */
+/* Full-height authentic GHUKASI beach photo: desktop composition */
 @media (min-width: 981px) {
   .about-art {
-    width: min(100%, 500px);
-    max-width: 500px;
+    width: min(100%, 480px);
+    max-width: 480px;
     max-height: none;
-    aspect-ratio: 1 / 1;
-    padding: 27px 24px 48px;
+    aspect-ratio: auto;
+    padding: 15px 16px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     justify-self: center;
   }
   .about-art img {
     display: block;
-    width: min(74%, 330px);
-    max-width: 100%;
+    width: min(100%, 430px);
     height: auto;
-    aspect-ratio: 1 / 1;
+    max-height: none;
+    aspect-ratio: auto;
     object-fit: contain;
     object-position: center;
-    transform: rotate(-3deg);
+    transform: none;
+    border-radius: 9px;
   }
-  .about-art:hover img { transform: rotate(0deg) scale(1.02); }
+  .about-art:hover img { transform: none; }
 }
