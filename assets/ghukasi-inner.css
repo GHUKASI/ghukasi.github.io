@@ -154,3 +154,40 @@ html[lang=hy] .sub-section h2,html[lang=hy] .bio-identity-card .name,html[lang=h
 html[lang=ru] .sub-hero .hero-artwork.album:after{content:"105 ТРЕКОВ"}
 html[lang=he] .sub-hero .hero-artwork.album:after{content:"105 רצועות"}
 html[lang=hy] .sub-hero .hero-artwork.album:after{content:"105 ԵՐԳ"}
+
+/* GHUKASI artist portrait: owner-provided digitally created likeness */
+.sub-hero .hero-artwork.portrait{
+  width:min(100%,460px);
+  min-height:0;
+  aspect-ratio:3 / 4;
+  isolation:isolate;
+}
+.sub-hero .hero-artwork.portrait:before{
+  inset:12% 3%;border-width:25px;opacity:.75;
+}
+.sub-hero .hero-artwork.portrait .portrait-link{
+  display:block;position:relative;z-index:2;
+  width:83%;height:95%;overflow:hidden;
+  border-radius:13px;border:1px solid #bfaeff73;
+  background:#16151b;
+  transform:rotate(-4deg);
+  box-shadow:0 32px 80px #000a,0 0 66px #7c64c846;
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.sub-hero .hero-artwork.portrait .portrait-link:hover,
+.sub-hero .hero-artwork.portrait .portrait-link:focus-visible{
+  transform:rotate(-1deg) scale(1.025);
+  box-shadow:0 40px 90px #000b,0 0 75px #a08df059;
+}
+.sub-hero .hero-artwork.portrait img{
+  width:100%;height:100%;display:block;
+  object-fit:cover;object-position:50% 26%;
+  border-radius:0;box-shadow:none;transform:none;
+}
+.sub-hero .hero-artwork.portrait:after{bottom:4%;right:-2%}
+@media(max-width:780px){
+  .sub-hero .hero-artwork.portrait{width:min(78%,380px);min-height:0}
+}
+@media(max-width:480px){
+  .sub-hero .hero-artwork.portrait{width:min(85%,330px);min-height:0}
+}
