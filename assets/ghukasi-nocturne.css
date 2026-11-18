@@ -411,3 +411,26 @@ html{scroll-behavior:auto}
   .about-art { padding: 15px 14px 43px; }
   .about-art .art-stamp { left: 14px; bottom: 13px; font-size: 9px; }
 }
+
+/* Desktop-only GHUKASI portrait: comfortable complete face size */
+@media (min-width: 981px) {
+  .about-art {
+    width: min(100%, 500px);
+    max-width: 500px;
+    max-height: none;
+    aspect-ratio: 1 / 1;
+    padding: 27px 24px 48px;
+    justify-self: center;
+  }
+  .about-art img {
+    display: block;
+    width: min(74%, 330px);
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    object-position: center;
+    transform: rotate(-3deg);
+  }
+  .about-art:hover img { transform: rotate(0deg) scale(1.02); }
+}
