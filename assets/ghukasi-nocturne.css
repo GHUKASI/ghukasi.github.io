@@ -362,3 +362,52 @@ html{scroll-behavior:auto}
 @media(max-width:920px){.header-youtube-label{display:none}.header-youtube{padding:12px 13px;font-size:15px}.header-youtube>span:first-child{font-size:17px}}
 @media(max-width:730px){.header-youtube{padding:11px 9px;min-height:41px}.hero-youtube{flex:0 0 auto}.youtube-channel-banner{height:175px}.youtube-channel-card .watch-play{transform:translate(78px,52px)}.youtube-channel-card:hover .watch-play{transform:translate(78px,52px) scale(1.07)}}
 @media(max-width:430px){.header-right{gap:5px!important}.header-youtube{padding:10px 8px}.header-cta{display:none!important}.hero-buttons{gap:9px}.hero-buttons>.btn{font-size:10px;padding:11px 13px;min-height:45px}}
+
+/* Mobile portrait visibility fix – full image, no accidental crop */
+
+/* Keep the complete GHUKASI portrait visible at tablet and phone widths.
+   Prevent the image from being cropped inside its decorative card. */
+@media (max-width: 980px) {
+  .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+  }
+  .about-art {
+    width: min(100%, 520px);
+    max-width: 100%;
+    max-height: none;
+    min-height: 0;
+    margin-inline: auto;
+    padding: 22px 18px 52px;
+    aspect-ratio: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-art img {
+    display: block;
+    width: min(100%, 420px);
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    aspect-ratio: auto;
+    object-fit: contain;
+    object-position: center;
+    transform: none;
+    border-radius: 8px;
+  }
+  .about-art:hover img { transform: none; }
+  .about-art .art-stamp {
+    left: 18px;
+    bottom: 17px;
+    right: 12px;
+    font-size: 10px;
+  }
+  .about-copy { min-width: 0; }
+}
+@media (max-width: 450px) {
+  .about { padding: 62px 0; }
+  .about-layout { gap: 24px; }
+  .about-art { padding: 15px 14px 43px; }
+  .about-art .art-stamp { left: 14px; bottom: 13px; font-size: 9px; }
+}
