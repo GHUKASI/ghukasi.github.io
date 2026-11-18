@@ -5,7 +5,7 @@ const TEXT={
 ru:{
 bioCareerTag:"ОБРАЗОВАНИЕ / ДЕНИС ГУКАСЯН",
 bioCareerTitle:"За пределами музыки",
-bioCareerDesc:"Денис Гукасян изучал графический дизайн в Dilijan School of Art, которую окончил с отличием, а также математику и программирование в Российско-Армянском университете. Это ещё одна сторона его биографии за пределами музыки.",
+bioCareerDesc:"Помимо музыки, Денис Гукасян изучал графический дизайн, математику и программирование. Это ещё одна сторона его биографии.",
 navReleases:"РЕЛИЗЫ",navCatalog:"ВСЯ МУЗЫКА",navArtist:"ОБ АРТИСТЕ",navVideos:"ВИДЕО",navHome:"ГЛАВНАЯ",navListen:"СЛУШАТЬ ↗",menu:"МЕНЮ ☰",streamSpotify:"СЛУШАТЬ В SPOTIFY ↗",backHome:"НА ГЛАВНУЮ ↗",footerTag:"GHUKASI · НЕЗАВИСИМЫЙ ЭЛЕКТРОННЫЙ АРТИСТ",
 homeTop:"<i class='top-dot'></i> ОФИЦИАЛЬНЫЙ САЙТ <b>/</b> ЭЛЕКТРОННАЯ МУЗЫКА",homeGenre:"ПЕВЕЦ / ЭЛЕКТРОННЫЙ АРТИСТ / DEEP HOUSE / EDM",homeHeroHtml:"ТВОЯ НОЧЬ<br><em>МОЙ ЗВУК</em>",homeHeroDesc:"Мир глубокого баса, гипнотических мелодий и музыки, которая остаётся с тобой. Добро пожаловать во вселенную GHUKASI.",homeExplore:"ОТКРЫТЬ МУЗЫКУ ↗",homeBottom:"GHUKASI — НЕЗАВИСИМЫЙ ЭЛЕКТРОННЫЙ АРТИСТ",homeScroll:"ЛИСТАЙ НИЖЕ ↓",homeRibbon:"ЗВУЧАНИЕ GHUKASI",
 homeConnectTag:"02 / НА СВЯЗИ",homeConnectHtml:"НАЙДИ СВОЮ<br>ЧАСТОТУ",homeConnectDesc:"Слушай музыку там, где тебе удобно. Подписывайся на GHUKASI в официальных музыкальных сервисах и соцсетях.",homeConnectNote:"ВСЕ ШЕСТЬ ССЫЛОК ВЕДУТ НА ОФИЦИАЛЬНЫЕ СТРАНИЦЫ GHUKASI.",
@@ -19,7 +19,7 @@ bioEyebrow:"ОБ АРТИСТЕ / ДЕНИС ГУКАСЯН",bioHeroTitle:"ЗА 
 he:{
 bioCareerTag:"השכלה / דניס גוקסיאן",
 bioCareerTitle:"מעבר למוזיקה",
-bioCareerDesc:"דניס גוקסיאן למד עיצוב גרפי ב-Dilijan School of Art וסיים בהצטיינות, ובהמשך למד מתמטיקה ותכנות באוניברסיטה הרוסית-ארמנית. השכלתו היא צד נוסף בסיפורו של האדם שמאחורי GHUKASI.",
+bioCareerDesc:"לצד המוזיקה, דניס גוקסיאן למד עיצוב גרפי, מתמטיקה ותכנות. זהו צד נוסף בסיפורו.",
 navHome:"דף הבית",navReleases:"יצירות",navCatalog:"כל המוזיקה",navArtist:"על האמן",navVideos:"וידאו",navListen:"להאזנה ↗",menu:"תפריט ☰",streamSpotify:"להאזנה בספוטיפיי ↗",backHome:"חזרה לדף הבית ↗",footerTag:"GHUKASI · אמן מוזיקה אלקטרונית עצמאי",
 homeTop:"<i class='top-dot'></i> האתר הרשמי <b>/</b> מוזיקה אלקטרונית",homeGenre:"זמר / אמן מוזיקה אלקטרונית / DEEP HOUSE / EDM",homeHeroHtml:"הלילה שלך<br><em>הסאונד שלי</em>",homeHeroDesc:"עולם של באסים עמוקים, מלודיות מהפנטות ומוזיקה שנשארת איתך. ברוכים הבאים לעולם הצלילים של GHUKASI.",homeExplore:"לגלות את המוזיקה ↗",homeBottom:"GHUKASI — אמן אלקטרוני עצמאי",homeScroll:"גללו כדי לגלות ↓",homeRibbon:"הסאונד של GHUKASI",
 homeConnectTag:"02 / מתחברים",homeConnectHtml:"למצוא את<br>התדר",homeConnectDesc:"לא משנה איפה אתם מאזינים, המוזיקה איתכם. עקבו אחרי GHUKASI בפלטפורמות הסטרימינג וברשתות החברתיות הרשמיות.",homeConnectNote:"כל ששת הקישורים מובילים לפרופילים הרשמיים של GHUKASI.",
@@ -33,7 +33,7 @@ bioEyebrow:"על האמן / דניס גוקסיאן",bioHeroTitle:"מאחורי<
 hy:{
 bioCareerTag:"ԿՐԹՈՒԹՅՈՒՆ / ԴԵՆԻՍ ՂՈՒԿԱՍՅԱՆ",
 bioCareerTitle:"Երաժշտությունից դուրս",
-bioCareerDesc:"Դենիս Ղուկասյանը գրաֆիկական դիզայն է ուսանել Dilijan School of Art-ում՝ ավարտելով գերազանցությամբ, ինչպես նաև մաթեմատիկա և ծրագրավորում՝ Հայ-ռուսական համալսարանում։ Կրթությունը GHUKASI-ի հետևում կանգնած մարդու կենսագրության մեկ այլ կողմն է։",
+bioCareerDesc:"Երաժշտությունից բացի Դենիս Ղուկասյանը ուսումնասիրել է գրաֆիկական դիզայն, մաթեմատիկա և ծրագրավորում։ Սա նրա կենսագրության մեկ այլ կողմն է։",
 navHome:"ԳԼԽԱՎՈՐ",navReleases:"ԹՈՂԱՐԿՈՒՄՆԵՐ",navCatalog:"ԱՄԲՈՂՋ ԵՐԱԺՇՏՈՒԹՅՈՒՆԸ",navArtist:"ԱՐՏԻՍՏԻ ՄԱՍԻՆ",navVideos:"ՏԵՍԱՆՅՈՒԹԵՐ",navListen:"ԼՍԵԼ ՀԻՄԱ ↗",menu:"ՄԵՆՅՈՒ ☰",streamSpotify:"ԼՍԵԼ SPOTIFY-ՈՒՄ ↗",backHome:"ԴԵՊԻ ԳԼԽԱՎՈՐ ↗",footerTag:"GHUKASI · ԱՆԿԱԽ ԷԼԵԿՏՐՈՆԱՅԻՆ ԱՐՏԻՍՏ",
 homeTop:"<i class='top-dot'></i> ՊԱՇՏՈՆԱԿԱՆ ԿԱՅՔ <b>/</b> ԷԼԵԿՏՐՈՆԱՅԻՆ ԵՐԱԺՇՏՈՒԹՅՈՒՆ",homeGenre:"ԵՐԳԻՉ / ԷԼԵԿՏՐՈՆԱՅԻՆ ԱՐՏԻՍՏ / DEEP HOUSE / EDM",homeHeroHtml:"ՔՈ ԳԻՇԵՐԸ<br><em>ԻՄ ՀՆՉՅՈՒՆԸ</em>",homeHeroDesc:"Խոր բասերի, հիպնոսացնող մեղեդիների ու հիշվող երգերի աշխարհ։ Բարի գալուստ GHUKASI-ի հնչյունային աշխարհ։",homeExplore:"ԲԱՑԱՀԱՅՏԵԼ ԵՐԱԺՇՏՈՒԹՅՈՒՆԸ ↗",homeBottom:"GHUKASI — ԱՆԿԱԽ ԷԼԵԿՏՐՈՆԱՅԻՆ ԱՐՏԻՍՏ",homeScroll:"ԹԵՐԹԻՐ ՆԵՐՔԵՎ ↓",homeRibbon:"GHUKASI-Ի ՀՆՉՅՈՒՆԸ",
 homeConnectTag:"02 / ԿԱՊ",homeConnectHtml:"ԳՏԻՐ ՔՈ<br>ԱԼԻՔԸ",homeConnectDesc:"Ուր էլ երաժշտություն լսես, այն քեզ հետ է։ Հետևիր GHUKASI-ին պաշտոնական երաժշտական հարթակներում և սոցցանցերում։",homeConnectNote:"ԲՈԼՈՐ ՎԵՑ ՀՂՈՒՄՆԵՐԸ ՏԱՆՈՒՄ ԵՆ GHUKASI-Ի ՊԱՇՏՈՆԱԿԱՆ ԷՋԵՐ։",
